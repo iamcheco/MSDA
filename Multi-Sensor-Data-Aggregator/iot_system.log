@@ -1,0 +1,143 @@
+2026-01-24 11:36:32,762 - INFO - Starting IoT Management System
+2026-01-24 11:36:32,765 - ERROR - Failed to connect: [Errno 2] could not open port /dev/ttyACM0: [Errno 2] No such file or directory: '/dev/ttyACM0'
+2026-01-24 11:36:32,767 - ERROR - Failed to start serial communication
+2026-01-24 11:37:25,448 - INFO - Starting IoT Management System
+2026-01-24 11:37:27,455 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:37:55,454 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:37:55,457 - INFO - Attempting to reconnect...
+2026-01-24 11:37:59,460 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:37:59,463 - INFO - Reconnected after 1 attempts
+2026-01-24 11:37:59,475 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:37:59,478 - INFO - Attempting to reconnect...
+2026-01-24 11:38:03,483 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:03,487 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:03,501 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:03,504 - INFO - Attempting to reconnect...
+2026-01-24 11:38:07,508 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:07,511 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:07,523 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:07,528 - INFO - Attempting to reconnect...
+2026-01-24 11:38:11,532 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:11,535 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:11,549 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:11,553 - INFO - Attempting to reconnect...
+2026-01-24 11:38:15,559 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:15,563 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:15,575 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:15,578 - INFO - Attempting to reconnect...
+2026-01-24 11:38:19,582 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:19,585 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:19,597 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:19,600 - INFO - Attempting to reconnect...
+2026-01-24 11:38:23,604 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:23,608 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:23,620 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:23,624 - INFO - Attempting to reconnect...
+2026-01-24 11:38:27,627 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:27,635 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:27,648 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:27,650 - INFO - Attempting to reconnect...
+2026-01-24 11:38:31,654 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:31,657 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:31,669 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:31,672 - INFO - Attempting to reconnect...
+2026-01-24 11:38:35,675 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:35,677 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:35,692 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:35,694 - INFO - Attempting to reconnect...
+2026-01-24 11:38:39,699 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:39,701 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:39,713 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:39,716 - INFO - Attempting to reconnect...
+2026-01-24 11:38:43,720 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:43,723 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:43,735 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:43,738 - INFO - Attempting to reconnect...
+2026-01-24 11:38:47,743 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:47,747 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:47,760 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:47,763 - INFO - Attempting to reconnect...
+2026-01-24 11:38:51,767 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:51,770 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:51,782 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:51,785 - INFO - Attempting to reconnect...
+2026-01-24 11:38:55,788 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:55,793 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:55,806 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:55,809 - INFO - Attempting to reconnect...
+2026-01-24 11:38:59,814 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:38:59,817 - INFO - Reconnected after 1 attempts
+2026-01-24 11:38:59,831 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:38:59,834 - INFO - Attempting to reconnect...
+2026-01-24 11:39:03,836 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:03,841 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:03,855 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:03,858 - INFO - Attempting to reconnect...
+2026-01-24 11:39:07,863 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:07,866 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:07,878 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:07,880 - INFO - Attempting to reconnect...
+2026-01-24 11:39:11,884 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:11,887 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:11,900 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:11,902 - INFO - Attempting to reconnect...
+2026-01-24 11:39:15,907 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:15,909 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:15,922 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:15,924 - INFO - Attempting to reconnect...
+2026-01-24 11:39:19,928 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:19,931 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:19,943 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:19,946 - INFO - Attempting to reconnect...
+2026-01-24 11:39:23,950 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:23,953 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:23,965 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:23,968 - INFO - Attempting to reconnect...
+2026-01-24 11:39:27,972 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:27,974 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:27,987 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:27,989 - INFO - Attempting to reconnect...
+2026-01-24 11:39:31,992 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:31,995 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:32,007 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:32,009 - INFO - Attempting to reconnect...
+2026-01-24 11:39:36,014 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:36,016 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:36,028 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:36,030 - INFO - Attempting to reconnect...
+2026-01-24 11:39:40,033 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:40,035 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:40,048 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:40,051 - INFO - Attempting to reconnect...
+2026-01-24 11:39:44,055 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:44,058 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:44,070 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:44,073 - INFO - Attempting to reconnect...
+2026-01-24 11:39:48,078 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:48,081 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:48,094 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:48,097 - INFO - Attempting to reconnect...
+2026-01-24 11:39:52,101 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:52,104 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:52,117 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:52,119 - INFO - Attempting to reconnect...
+2026-01-24 11:39:56,124 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:39:56,127 - INFO - Reconnected after 1 attempts
+2026-01-24 11:39:56,139 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:39:56,144 - INFO - Attempting to reconnect...
+2026-01-24 11:40:00,148 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:40:00,152 - INFO - Reconnected after 1 attempts
+2026-01-24 11:40:00,165 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:40:00,167 - INFO - Attempting to reconnect...
+2026-01-24 11:40:04,172 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:40:04,176 - INFO - Reconnected after 1 attempts
+2026-01-24 11:40:04,188 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:40:04,191 - INFO - Attempting to reconnect...
+2026-01-24 11:40:08,195 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:40:08,197 - INFO - Reconnected after 1 attempts
+2026-01-24 11:40:08,210 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:40:08,214 - INFO - Attempting to reconnect...
+2026-01-24 11:40:12,219 - INFO - Connected to Arduino on /dev/ttyAMA0
+2026-01-24 11:40:12,222 - INFO - Reconnected after 1 attempts
+2026-01-24 11:40:12,234 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-01-24 11:40:12,236 - INFO - Attempting to reconnect...
