@@ -2,15 +2,15 @@
 
 ## Components
 
-#### 1\. Raspberry Pi EMQX003
+#### 1. Raspberry Pi EMQX003
 
 It's a single-board computer that can handle more complex tasks like data processing, networking, or even controlling other devices.
 
-**What to do**: Set up your Raspberry Pi and make sure it has Raspbian (or another OS) installed. You can connect it to your network, set up SSH, and use it to send/receive data to/from your sensors.
+**What to do**: Set up your Raspberry Pi and make sure it has Raspbian (or another OS) installed. You can connect it to your network, set up SSH, and use it to send/receive data to and from your sensors.
 
 
 
-#### 2\. Arduino Nano ESP32
+#### 2. Arduino Nano ESP32
 
 The Arduino Nano ESP32 will be the microcontroller handling the sensors and performing real-time tasks like reading data from sensors and processing it.
 
@@ -18,7 +18,7 @@ The Arduino Nano ESP32 will be the microcontroller handling the sensors and perf
 
 
 
-#### 3\. Breadboard
+#### 3. Breadboard
 
 The breadboard is where you'll wire everything together without soldering. It helps you create temporary connections to test your circuit.
 
@@ -26,7 +26,7 @@ The breadboard is where you'll wire everything together without soldering. It he
 
 
 
-#### 4\. MB102 Breadboard Power Supply Module
+#### 4. MB102 Breadboard Power Supply Module
 
 This module will supply power to your breadboard and components. It's an easy way to distribute power for your sensors and microcontrollers.
 
@@ -34,7 +34,7 @@ What to do: Insert this into your breadboard. It typically has both 5V and 3.3V 
 
 
 
-#### 5\. Resistors
+#### 5. Resistors
 
 Resistors limit the current flowing through your components to prevent them from burning out.
 
@@ -42,7 +42,7 @@ Resistors limit the current flowing through your components to prevent them from
 
 
 
-#### 6\. PIR Motion Sensor
+#### 6. PIR Motion Sensor
 
 The PIR (Passive InfraRed) sensor detects movement. It can be used to trigger an event when motion is detected.
 
@@ -50,7 +50,7 @@ The PIR (Passive InfraRed) sensor detects movement. It can be used to trigger an
 
 
 
-#### 7\. Temperature and Humidity Sensor (e.g., DHT11 or DHT22)
+#### 7. Temperature and Humidity Sensor (e.g., DHT11 or DHT22)
 
 This sensor will read the temperature and humidity in the environment.
 
@@ -58,9 +58,8 @@ This sensor will read the temperature and humidity in the environment.
 
 
 
-#### 8\. Ultrasonic Ranger
+#### 8. Ultrasonic Ranger
 
 This sensor measures distance by sending out sound waves and measuring how long it takes for the waves to bounce back. It’s useful for detecting how far away an object is.
 
 **What to do**: The ultrasonic sensor will have a Trigger and Echo pin. Connect the Trigger pin to a digital output pin on the Arduino (e.g., D4), and the Echo pin to a digital input pin (e.g., D5). Your Arduino will send a pulse via the Trigger pin, then measure the time it takes for the Echo pin to receive the reflected sound.
-
