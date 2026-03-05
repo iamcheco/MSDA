@@ -582,6 +582,7 @@ class SerialManager:
             time.sleep(2)
             
             if self.connect():
+                self.last_heartbeat = time.time()  # reset timer so we don't immediately timeout again
                 logging.info(f"Reconnected after {attempt + 1} attempts")
                 self.db.add_event("SERIAL", "INFO", f"Reconnected after {attempt + 1} attempts")
                 return True

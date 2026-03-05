@@ -141,3 +141,1356 @@
 2026-01-24 11:40:12,222 - INFO - Reconnected after 1 attempts
 2026-01-24 11:40:12,234 - WARNING - Heartbeat timeout - Arduino may be disconnected
 2026-01-24 11:40:12,236 - INFO - Attempting to reconnect...
+2026-03-04 16:12:40,955 - INFO - Starting IoT Management System
+2026-03-04 16:12:42,976 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:10,958 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:10,963 - INFO - Attempting to reconnect...
+2026-03-04 16:13:14,980 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:14,985 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:15,000 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:15,003 - INFO - Attempting to reconnect...
+2026-03-04 16:13:19,021 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:19,026 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:19,040 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:19,043 - INFO - Attempting to reconnect...
+2026-03-04 16:13:23,061 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:23,065 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:23,079 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:23,082 - INFO - Attempting to reconnect...
+2026-03-04 16:13:27,100 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:27,104 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:27,118 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:27,122 - INFO - Attempting to reconnect...
+2026-03-04 16:13:31,141 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:31,145 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:31,159 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:31,163 - INFO - Attempting to reconnect...
+2026-03-04 16:13:35,182 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:35,187 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:35,200 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:35,204 - INFO - Attempting to reconnect...
+2026-03-04 16:13:39,226 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:39,229 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:39,243 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:39,246 - INFO - Attempting to reconnect...
+2026-03-04 16:13:43,264 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:43,269 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:43,283 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:43,287 - INFO - Attempting to reconnect...
+2026-03-04 16:13:47,304 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:47,311 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:47,325 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:47,327 - INFO - Attempting to reconnect...
+2026-03-04 16:13:51,345 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:51,350 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:51,364 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:51,367 - INFO - Attempting to reconnect...
+2026-03-04 16:13:55,386 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:55,389 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:55,402 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:55,405 - INFO - Attempting to reconnect...
+2026-03-04 16:13:59,424 - INFO - Connected to Arduino on COM9
+2026-03-04 16:13:59,428 - INFO - Reconnected after 1 attempts
+2026-03-04 16:13:59,442 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:13:59,446 - INFO - Attempting to reconnect...
+2026-03-04 16:14:03,464 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:03,470 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:03,484 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:03,488 - INFO - Attempting to reconnect...
+2026-03-04 16:14:07,508 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:07,512 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:07,526 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:07,529 - INFO - Attempting to reconnect...
+2026-03-04 16:14:11,547 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:11,551 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:11,564 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:11,567 - INFO - Attempting to reconnect...
+2026-03-04 16:14:15,585 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:15,590 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:15,605 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:15,609 - INFO - Attempting to reconnect...
+2026-03-04 16:14:19,626 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:19,631 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:19,645 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:19,647 - INFO - Attempting to reconnect...
+2026-03-04 16:14:23,665 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:23,671 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:23,685 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:23,689 - INFO - Attempting to reconnect...
+2026-03-04 16:14:27,708 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:27,712 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:27,726 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:27,729 - INFO - Attempting to reconnect...
+2026-03-04 16:14:31,747 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:31,750 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:31,764 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:31,767 - INFO - Attempting to reconnect...
+2026-03-04 16:14:35,786 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:35,790 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:35,804 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:35,808 - INFO - Attempting to reconnect...
+2026-03-04 16:14:39,825 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:39,829 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:39,843 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:39,846 - INFO - Attempting to reconnect...
+2026-03-04 16:14:43,864 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:43,870 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:43,884 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:43,888 - INFO - Attempting to reconnect...
+2026-03-04 16:14:47,906 - INFO - Connected to Arduino on COM9
+2026-03-04 16:14:47,910 - INFO - Reconnected after 1 attempts
+2026-03-04 16:14:47,924 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:14:47,927 - INFO - Attempting to reconnect...
+2026-03-04 16:14:49,942 - ERROR - Failed to connect: Cannot configure port, something went wrong. Original message: PermissionError(13, 'A device attached to the system is not functioning.', None, 31)
+2026-03-04 16:14:56,961 - ERROR - Failed to connect: Cannot configure port, something went wrong. Original message: PermissionError(13, 'A device attached to the system is not functioning.', None, 31)
+2026-03-04 16:15:05,984 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:05,989 - INFO - Reconnected after 3 attempts
+2026-03-04 16:15:06,004 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:06,007 - INFO - Attempting to reconnect...
+2026-03-04 16:15:10,026 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:10,031 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:10,045 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:10,049 - INFO - Attempting to reconnect...
+2026-03-04 16:15:14,067 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:14,072 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:14,086 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:14,089 - INFO - Attempting to reconnect...
+2026-03-04 16:15:18,107 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:18,112 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:18,125 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:18,128 - INFO - Attempting to reconnect...
+2026-03-04 16:15:22,146 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:22,152 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:22,166 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:22,171 - INFO - Attempting to reconnect...
+2026-03-04 16:15:26,189 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:26,194 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:26,207 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:26,211 - INFO - Attempting to reconnect...
+2026-03-04 16:15:30,229 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:30,233 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:30,248 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:30,252 - INFO - Attempting to reconnect...
+2026-03-04 16:15:34,270 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:34,274 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:34,290 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:34,296 - INFO - Attempting to reconnect...
+2026-03-04 16:15:38,314 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:38,319 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:38,333 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:38,336 - INFO - Attempting to reconnect...
+2026-03-04 16:15:42,354 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:42,359 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:42,373 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:42,377 - INFO - Attempting to reconnect...
+2026-03-04 16:15:46,396 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:46,401 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:46,415 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:46,422 - INFO - Attempting to reconnect...
+2026-03-04 16:15:50,440 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:50,445 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:50,459 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:50,461 - INFO - Attempting to reconnect...
+2026-03-04 16:15:54,479 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:54,485 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:54,498 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:54,502 - INFO - Attempting to reconnect...
+2026-03-04 16:15:58,521 - INFO - Connected to Arduino on COM9
+2026-03-04 16:15:58,527 - INFO - Reconnected after 1 attempts
+2026-03-04 16:15:58,541 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:15:58,546 - INFO - Attempting to reconnect...
+2026-03-04 16:16:02,563 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:02,568 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:02,583 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:02,587 - INFO - Attempting to reconnect...
+2026-03-04 16:16:06,606 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:06,611 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:06,625 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:06,628 - INFO - Attempting to reconnect...
+2026-03-04 16:16:10,646 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:10,651 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:10,666 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:10,668 - INFO - Attempting to reconnect...
+2026-03-04 16:16:14,686 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:14,690 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:14,705 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:14,710 - INFO - Attempting to reconnect...
+2026-03-04 16:16:18,728 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:18,732 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:18,745 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:18,748 - INFO - Attempting to reconnect...
+2026-03-04 16:16:22,767 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:22,771 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:22,785 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:22,788 - INFO - Attempting to reconnect...
+2026-03-04 16:16:26,807 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:26,811 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:26,824 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:26,827 - INFO - Attempting to reconnect...
+2026-03-04 16:16:30,846 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:30,851 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:30,865 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:30,869 - INFO - Attempting to reconnect...
+2026-03-04 16:16:34,887 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:34,892 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:34,907 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:34,912 - INFO - Attempting to reconnect...
+2026-03-04 16:16:38,932 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:38,936 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:38,950 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:38,953 - INFO - Attempting to reconnect...
+2026-03-04 16:16:42,971 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:42,974 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:42,988 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:42,992 - INFO - Attempting to reconnect...
+2026-03-04 16:16:47,011 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:47,016 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:47,030 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:47,035 - INFO - Attempting to reconnect...
+2026-03-04 16:16:51,053 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:51,057 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:51,071 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:51,075 - INFO - Attempting to reconnect...
+2026-03-04 16:16:55,092 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:55,097 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:55,110 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:55,115 - INFO - Attempting to reconnect...
+2026-03-04 16:16:59,133 - INFO - Connected to Arduino on COM9
+2026-03-04 16:16:59,137 - INFO - Reconnected after 1 attempts
+2026-03-04 16:16:59,151 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:16:59,155 - INFO - Attempting to reconnect...
+2026-03-04 16:17:03,174 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:03,178 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:03,192 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:03,196 - INFO - Attempting to reconnect...
+2026-03-04 16:17:07,214 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:07,219 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:07,234 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:07,237 - INFO - Attempting to reconnect...
+2026-03-04 16:17:11,256 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:11,260 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:11,273 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:11,277 - INFO - Attempting to reconnect...
+2026-03-04 16:17:15,295 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:15,300 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:15,314 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:15,318 - INFO - Attempting to reconnect...
+2026-03-04 16:17:19,336 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:19,340 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:19,354 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:19,357 - INFO - Attempting to reconnect...
+2026-03-04 16:17:23,376 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:23,380 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:23,394 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:23,397 - INFO - Attempting to reconnect...
+2026-03-04 16:17:27,416 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:27,421 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:27,435 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:27,438 - INFO - Attempting to reconnect...
+2026-03-04 16:17:31,458 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:31,463 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:31,477 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:31,480 - INFO - Attempting to reconnect...
+2026-03-04 16:17:35,499 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:35,504 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:35,519 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:35,524 - INFO - Attempting to reconnect...
+2026-03-04 16:17:39,542 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:39,547 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:39,562 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:39,566 - INFO - Attempting to reconnect...
+2026-03-04 16:17:43,584 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:43,589 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:43,604 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:43,607 - INFO - Attempting to reconnect...
+2026-03-04 16:17:47,625 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:47,629 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:47,643 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:47,647 - INFO - Attempting to reconnect...
+2026-03-04 16:17:51,665 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:51,669 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:51,683 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:51,687 - INFO - Attempting to reconnect...
+2026-03-04 16:17:55,710 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:55,716 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:55,731 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:55,734 - INFO - Attempting to reconnect...
+2026-03-04 16:17:59,753 - INFO - Connected to Arduino on COM9
+2026-03-04 16:17:59,756 - INFO - Reconnected after 1 attempts
+2026-03-04 16:17:59,770 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:17:59,773 - INFO - Attempting to reconnect...
+2026-03-04 16:18:03,791 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:03,795 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:03,808 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:03,812 - INFO - Attempting to reconnect...
+2026-03-04 16:18:07,830 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:07,834 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:07,848 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:07,852 - INFO - Attempting to reconnect...
+2026-03-04 16:18:11,871 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:11,875 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:11,890 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:11,894 - INFO - Attempting to reconnect...
+2026-03-04 16:18:15,912 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:15,916 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:15,930 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:15,934 - INFO - Attempting to reconnect...
+2026-03-04 16:18:19,953 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:19,957 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:19,971 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:19,974 - INFO - Attempting to reconnect...
+2026-03-04 16:18:23,992 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:23,996 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:24,009 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:24,013 - INFO - Attempting to reconnect...
+2026-03-04 16:18:28,031 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:28,035 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:28,049 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:28,051 - INFO - Attempting to reconnect...
+2026-03-04 16:18:32,070 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:32,074 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:32,088 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:32,092 - INFO - Attempting to reconnect...
+2026-03-04 16:18:34,093 - ERROR - Failed to connect: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2026-03-04 16:18:43,115 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:43,122 - INFO - Reconnected after 2 attempts
+2026-03-04 16:18:43,136 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:43,139 - INFO - Attempting to reconnect...
+2026-03-04 16:18:47,158 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:47,163 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:47,177 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:47,181 - INFO - Attempting to reconnect...
+2026-03-04 16:18:51,200 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:51,205 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:51,219 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:51,221 - INFO - Attempting to reconnect...
+2026-03-04 16:18:55,239 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:55,243 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:55,257 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:55,261 - INFO - Attempting to reconnect...
+2026-03-04 16:18:59,279 - INFO - Connected to Arduino on COM9
+2026-03-04 16:18:59,283 - INFO - Reconnected after 1 attempts
+2026-03-04 16:18:59,298 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:18:59,302 - INFO - Attempting to reconnect...
+2026-03-04 16:19:03,322 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:03,326 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:03,340 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:03,343 - INFO - Attempting to reconnect...
+2026-03-04 16:19:07,363 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:07,366 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:07,381 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:07,385 - INFO - Attempting to reconnect...
+2026-03-04 16:19:11,403 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:11,408 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:11,422 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:11,426 - INFO - Attempting to reconnect...
+2026-03-04 16:19:15,445 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:15,450 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:15,465 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:15,476 - INFO - Attempting to reconnect...
+2026-03-04 16:19:19,494 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:19,498 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:19,512 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:19,515 - INFO - Attempting to reconnect...
+2026-03-04 16:19:23,534 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:23,537 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:23,551 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:23,554 - INFO - Attempting to reconnect...
+2026-03-04 16:19:27,573 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:27,577 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:27,591 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:27,593 - INFO - Attempting to reconnect...
+2026-03-04 16:19:31,611 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:31,618 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:31,632 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:31,636 - INFO - Attempting to reconnect...
+2026-03-04 16:19:35,653 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:35,657 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:35,672 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:35,675 - INFO - Attempting to reconnect...
+2026-03-04 16:19:39,693 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:39,698 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:39,713 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:39,716 - INFO - Attempting to reconnect...
+2026-03-04 16:19:43,735 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:43,739 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:43,752 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:43,756 - INFO - Attempting to reconnect...
+2026-03-04 16:19:47,775 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:47,779 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:47,793 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:47,798 - INFO - Attempting to reconnect...
+2026-03-04 16:19:51,816 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:51,820 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:51,834 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:51,838 - INFO - Attempting to reconnect...
+2026-03-04 16:19:55,856 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:55,861 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:55,875 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:55,879 - INFO - Attempting to reconnect...
+2026-03-04 16:19:59,897 - INFO - Connected to Arduino on COM9
+2026-03-04 16:19:59,903 - INFO - Reconnected after 1 attempts
+2026-03-04 16:19:59,917 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:19:59,921 - INFO - Attempting to reconnect...
+2026-03-04 16:20:03,939 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:03,944 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:03,960 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:03,963 - INFO - Attempting to reconnect...
+2026-03-04 16:20:07,980 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:07,985 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:07,999 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:08,003 - INFO - Attempting to reconnect...
+2026-03-04 16:20:12,022 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:12,027 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:12,042 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:12,046 - INFO - Attempting to reconnect...
+2026-03-04 16:20:16,066 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:16,073 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:16,087 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:16,091 - INFO - Attempting to reconnect...
+2026-03-04 16:20:20,110 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:20,114 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:20,128 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:20,131 - INFO - Attempting to reconnect...
+2026-03-04 16:20:24,149 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:24,153 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:24,167 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:24,171 - INFO - Attempting to reconnect...
+2026-03-04 16:20:28,190 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:28,196 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:28,213 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:28,220 - INFO - Attempting to reconnect...
+2026-03-04 16:20:32,242 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:32,247 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:32,261 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:32,264 - INFO - Attempting to reconnect...
+2026-03-04 16:20:36,282 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:36,286 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:36,301 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:36,304 - INFO - Attempting to reconnect...
+2026-03-04 16:20:40,322 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:40,326 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:40,342 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:40,346 - INFO - Attempting to reconnect...
+2026-03-04 16:20:44,364 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:44,367 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:44,381 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:44,386 - INFO - Attempting to reconnect...
+2026-03-04 16:20:48,404 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:48,408 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:48,422 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:48,428 - INFO - Attempting to reconnect...
+2026-03-04 16:20:52,446 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:52,452 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:52,467 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:52,472 - INFO - Attempting to reconnect...
+2026-03-04 16:20:56,492 - INFO - Connected to Arduino on COM9
+2026-03-04 16:20:56,496 - INFO - Reconnected after 1 attempts
+2026-03-04 16:20:56,509 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:20:56,513 - INFO - Attempting to reconnect...
+2026-03-04 16:21:00,531 - INFO - Connected to Arduino on COM9
+2026-03-04 16:21:00,535 - INFO - Reconnected after 1 attempts
+2026-03-04 16:21:00,549 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:21:00,553 - INFO - Attempting to reconnect...
+2026-03-04 16:21:04,571 - INFO - Connected to Arduino on COM9
+2026-03-04 16:21:04,576 - INFO - Reconnected after 1 attempts
+2026-03-04 16:21:04,592 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:21:04,597 - INFO - Attempting to reconnect...
+2026-03-04 16:21:08,616 - INFO - Connected to Arduino on COM9
+2026-03-04 16:21:08,622 - INFO - Reconnected after 1 attempts
+2026-03-04 16:21:08,636 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:21:08,640 - INFO - Attempting to reconnect...
+2026-03-04 16:21:12,658 - INFO - Connected to Arduino on COM9
+2026-03-04 16:21:12,663 - INFO - Reconnected after 1 attempts
+2026-03-04 16:21:12,678 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:21:12,681 - INFO - Attempting to reconnect...
+2026-03-04 16:21:16,698 - INFO - Connected to Arduino on COM9
+2026-03-04 16:21:16,704 - INFO - Reconnected after 1 attempts
+2026-03-04 16:21:16,717 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:21:16,722 - INFO - Attempting to reconnect...
+2026-03-04 16:21:20,740 - INFO - Connected to Arduino on COM9
+2026-03-04 16:21:20,746 - INFO - Reconnected after 1 attempts
+2026-03-04 16:21:20,760 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:21:20,764 - INFO - Attempting to reconnect...
+2026-03-04 16:21:24,783 - INFO - Connected to Arduino on COM9
+2026-03-04 16:21:24,789 - INFO - Reconnected after 1 attempts
+2026-03-04 16:21:24,802 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:21:24,806 - INFO - Attempting to reconnect...
+2026-03-04 16:21:28,824 - INFO - Connected to Arduino on COM9
+2026-03-04 16:21:28,830 - INFO - Reconnected after 1 attempts
+2026-03-04 16:21:28,844 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:21:28,848 - INFO - Attempting to reconnect...
+2026-03-04 16:21:31,095 - INFO - Shutdown signal received
+2026-03-04 16:21:31,095 - INFO - Stopping IoT Management System
+2026-03-04 16:21:32,867 - INFO - Connected to Arduino on COM9
+2026-03-04 16:21:32,871 - INFO - Reconnected after 1 attempts
+2026-03-04 16:21:32,892 - INFO - Stopping IoT Management System
+2026-03-04 16:43:30,415 - INFO - Starting IoT Management System
+2026-03-04 16:43:30,419 - ERROR - Failed to connect: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2026-03-04 16:43:30,421 - ERROR - Failed to start serial communication
+2026-03-04 16:44:19,421 - INFO - Starting IoT Management System
+2026-03-04 16:44:21,442 - INFO - Connected to Arduino on COM9
+2026-03-04 16:44:49,431 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:44:49,435 - INFO - Attempting to reconnect...
+2026-03-04 16:44:53,454 - INFO - Connected to Arduino on COM9
+2026-03-04 16:44:53,459 - INFO - Reconnected after 1 attempts
+2026-03-04 16:44:53,473 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:44:53,478 - INFO - Attempting to reconnect...
+2026-03-04 16:44:57,497 - INFO - Connected to Arduino on COM9
+2026-03-04 16:44:57,501 - INFO - Reconnected after 1 attempts
+2026-03-04 16:44:57,515 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:44:57,519 - INFO - Attempting to reconnect...
+2026-03-04 16:45:01,537 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:01,541 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:01,555 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:01,559 - INFO - Attempting to reconnect...
+2026-03-04 16:45:05,577 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:05,582 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:05,597 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:05,601 - INFO - Attempting to reconnect...
+2026-03-04 16:45:09,620 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:09,624 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:09,637 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:09,641 - INFO - Attempting to reconnect...
+2026-03-04 16:45:13,659 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:13,664 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:13,678 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:13,680 - INFO - Attempting to reconnect...
+2026-03-04 16:45:17,698 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:17,703 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:17,718 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:17,722 - INFO - Attempting to reconnect...
+2026-03-04 16:45:21,740 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:21,744 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:21,758 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:21,761 - INFO - Attempting to reconnect...
+2026-03-04 16:45:25,780 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:25,788 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:25,802 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:25,805 - INFO - Attempting to reconnect...
+2026-03-04 16:45:29,823 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:29,828 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:29,841 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:29,844 - INFO - Attempting to reconnect...
+2026-03-04 16:45:33,863 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:33,868 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:33,881 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:33,884 - INFO - Attempting to reconnect...
+2026-03-04 16:45:37,902 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:37,909 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:37,923 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:37,928 - INFO - Attempting to reconnect...
+2026-03-04 16:45:41,945 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:41,950 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:41,965 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:41,971 - INFO - Attempting to reconnect...
+2026-03-04 16:45:45,992 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:45,996 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:46,010 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:46,015 - INFO - Attempting to reconnect...
+2026-03-04 16:45:50,033 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:50,038 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:50,051 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:50,054 - INFO - Attempting to reconnect...
+2026-03-04 16:45:54,073 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:54,078 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:54,093 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:54,097 - INFO - Attempting to reconnect...
+2026-03-04 16:45:58,115 - INFO - Connected to Arduino on COM9
+2026-03-04 16:45:58,119 - INFO - Reconnected after 1 attempts
+2026-03-04 16:45:58,133 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:45:58,137 - INFO - Attempting to reconnect...
+2026-03-04 16:46:02,155 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:02,160 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:02,175 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:02,179 - INFO - Attempting to reconnect...
+2026-03-04 16:46:06,197 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:06,201 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:06,214 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:06,218 - INFO - Attempting to reconnect...
+2026-03-04 16:46:10,236 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:10,241 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:10,254 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:10,259 - INFO - Attempting to reconnect...
+2026-03-04 16:46:14,278 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:14,282 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:14,296 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:14,300 - INFO - Attempting to reconnect...
+2026-03-04 16:46:18,318 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:18,323 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:18,338 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:18,342 - INFO - Attempting to reconnect...
+2026-03-04 16:46:22,361 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:22,366 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:22,380 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:22,382 - INFO - Attempting to reconnect...
+2026-03-04 16:46:26,401 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:26,405 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:26,420 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:26,423 - INFO - Attempting to reconnect...
+2026-03-04 16:46:30,441 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:30,445 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:30,460 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:30,464 - INFO - Attempting to reconnect...
+2026-03-04 16:46:34,483 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:34,488 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:34,504 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:34,507 - INFO - Attempting to reconnect...
+2026-03-04 16:46:38,525 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:38,531 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:38,544 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:38,548 - INFO - Attempting to reconnect...
+2026-03-04 16:46:42,566 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:42,571 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:42,585 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:42,589 - INFO - Attempting to reconnect...
+2026-03-04 16:46:46,607 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:46,613 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:46,628 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:46,632 - INFO - Attempting to reconnect...
+2026-03-04 16:46:50,649 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:50,654 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:50,669 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:50,673 - INFO - Attempting to reconnect...
+2026-03-04 16:46:54,692 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:54,696 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:54,711 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:54,714 - INFO - Attempting to reconnect...
+2026-03-04 16:46:58,732 - INFO - Connected to Arduino on COM9
+2026-03-04 16:46:58,738 - INFO - Reconnected after 1 attempts
+2026-03-04 16:46:58,753 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:46:58,757 - INFO - Attempting to reconnect...
+2026-03-04 16:47:02,775 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:02,779 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:02,793 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:02,797 - INFO - Attempting to reconnect...
+2026-03-04 16:47:06,815 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:06,819 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:06,833 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:06,836 - INFO - Attempting to reconnect...
+2026-03-04 16:47:10,854 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:10,857 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:10,871 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:10,874 - INFO - Attempting to reconnect...
+2026-03-04 16:47:14,893 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:14,897 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:14,911 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:14,914 - INFO - Attempting to reconnect...
+2026-03-04 16:47:18,932 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:18,938 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:18,952 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:18,958 - INFO - Attempting to reconnect...
+2026-03-04 16:47:22,977 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:22,982 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:22,996 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:23,000 - INFO - Attempting to reconnect...
+2026-03-04 16:47:27,018 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:27,023 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:27,037 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:27,040 - INFO - Attempting to reconnect...
+2026-03-04 16:47:31,058 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:31,063 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:31,077 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:31,081 - INFO - Attempting to reconnect...
+2026-03-04 16:47:35,099 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:35,103 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:35,117 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:35,122 - INFO - Attempting to reconnect...
+2026-03-04 16:47:39,140 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:39,143 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:39,157 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:39,162 - INFO - Attempting to reconnect...
+2026-03-04 16:47:43,180 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:43,185 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:43,199 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:43,203 - INFO - Attempting to reconnect...
+2026-03-04 16:47:47,221 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:47,229 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:47,243 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:47,247 - INFO - Attempting to reconnect...
+2026-03-04 16:47:51,265 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:51,272 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:51,290 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:51,295 - INFO - Attempting to reconnect...
+2026-03-04 16:47:55,314 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:55,326 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:55,346 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:55,353 - INFO - Attempting to reconnect...
+2026-03-04 16:47:59,373 - INFO - Connected to Arduino on COM9
+2026-03-04 16:47:59,379 - INFO - Reconnected after 1 attempts
+2026-03-04 16:47:59,393 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:47:59,398 - INFO - Attempting to reconnect...
+2026-03-04 16:48:03,418 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:03,423 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:03,440 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:03,444 - INFO - Attempting to reconnect...
+2026-03-04 16:48:07,464 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:07,469 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:07,483 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:07,487 - INFO - Attempting to reconnect...
+2026-03-04 16:48:11,505 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:11,510 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:11,524 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:11,529 - INFO - Attempting to reconnect...
+2026-03-04 16:48:15,546 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:15,550 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:15,564 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:15,567 - INFO - Attempting to reconnect...
+2026-03-04 16:48:19,585 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:19,591 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:19,604 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:19,607 - INFO - Attempting to reconnect...
+2026-03-04 16:48:23,625 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:23,629 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:23,644 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:23,647 - INFO - Attempting to reconnect...
+2026-03-04 16:48:27,665 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:27,670 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:27,683 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:27,686 - INFO - Attempting to reconnect...
+2026-03-04 16:48:31,705 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:31,709 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:31,724 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:31,729 - INFO - Attempting to reconnect...
+2026-03-04 16:48:35,747 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:35,752 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:35,765 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:35,769 - INFO - Attempting to reconnect...
+2026-03-04 16:48:39,789 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:39,798 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:39,812 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:39,815 - INFO - Attempting to reconnect...
+2026-03-04 16:48:43,834 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:43,838 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:43,851 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:43,855 - INFO - Attempting to reconnect...
+2026-03-04 16:48:47,872 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:47,877 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:47,893 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:47,898 - INFO - Attempting to reconnect...
+2026-03-04 16:48:51,917 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:51,920 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:51,933 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:51,936 - INFO - Attempting to reconnect...
+2026-03-04 16:48:55,954 - INFO - Connected to Arduino on COM9
+2026-03-04 16:48:55,961 - INFO - Reconnected after 1 attempts
+2026-03-04 16:48:55,976 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:48:55,982 - INFO - Attempting to reconnect...
+2026-03-04 16:49:00,000 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:00,005 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:00,019 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:00,024 - INFO - Attempting to reconnect...
+2026-03-04 16:49:04,042 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:04,046 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:04,060 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:04,063 - INFO - Attempting to reconnect...
+2026-03-04 16:49:08,082 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:08,086 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:08,100 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:08,104 - INFO - Attempting to reconnect...
+2026-03-04 16:49:12,123 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:12,128 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:12,142 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:12,152 - INFO - Attempting to reconnect...
+2026-03-04 16:49:16,170 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:16,174 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:16,188 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:16,192 - INFO - Attempting to reconnect...
+2026-03-04 16:49:20,211 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:20,216 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:20,229 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:20,232 - INFO - Attempting to reconnect...
+2026-03-04 16:49:24,250 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:24,256 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:24,273 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:24,279 - INFO - Attempting to reconnect...
+2026-03-04 16:49:28,299 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:28,304 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:28,320 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:28,331 - INFO - Attempting to reconnect...
+2026-03-04 16:49:32,352 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:32,357 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:32,377 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:32,382 - INFO - Attempting to reconnect...
+2026-03-04 16:49:36,400 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:36,404 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:36,419 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:36,424 - INFO - Attempting to reconnect...
+2026-03-04 16:49:40,443 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:40,448 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:40,463 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:40,466 - INFO - Attempting to reconnect...
+2026-03-04 16:49:44,484 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:44,487 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:44,501 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:44,505 - INFO - Attempting to reconnect...
+2026-03-04 16:49:48,523 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:48,527 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:48,546 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:48,553 - INFO - Attempting to reconnect...
+2026-03-04 16:49:52,571 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:52,578 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:52,594 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:52,597 - INFO - Attempting to reconnect...
+2026-03-04 16:49:56,617 - INFO - Connected to Arduino on COM9
+2026-03-04 16:49:56,620 - INFO - Reconnected after 1 attempts
+2026-03-04 16:49:56,635 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 16:49:56,640 - INFO - Attempting to reconnect...
+2026-03-04 16:51:52,782 - INFO - Starting IoT Management System
+2026-03-04 16:51:54,802 - INFO - Connected to Arduino on COM9
+2026-03-04 16:51:54,809 - INFO - Arduino: MSDA Firmware ready
+2026-03-04 16:51:54,816 - INFO - Sensor inventory updated: 2 sensors
+2026-03-04 16:51:54,903 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:51:55,329 - INFO - Sensor inventory updated: 2 sensors
+2026-03-04 16:51:55,332 - INFO - Arduino: Config received
+2026-03-04 16:51:56,318 - INFO - Arduino: Config received
+2026-03-04 16:51:56,334 - INFO - Arduino: Config received
+2026-03-04 16:51:56,337 - INFO - Arduino: Config received
+2026-03-04 16:51:56,899 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:51:58,893 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:00,884 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:02,883 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:04,867 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:06,861 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:08,865 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:10,845 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:12,847 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:14,837 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:16,833 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:18,827 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:20,812 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:22,814 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:24,806 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:25,322 - INFO - Arduino: Config received
+2026-03-04 16:52:26,793 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:28,792 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:30,786 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:32,772 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:34,778 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:36,768 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:38,752 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:40,744 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:42,741 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:44,742 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:46,735 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:48,728 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:50,720 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:52,715 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:54,699 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:55,322 - INFO - Arduino: Config received
+2026-03-04 16:52:56,695 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:52:58,695 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:00,681 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:02,679 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:04,673 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:06,661 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:08,652 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:10,656 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:12,644 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:14,638 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:16,630 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:18,627 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:20,616 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:22,618 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:24,601 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:25,329 - INFO - Arduino: Config received
+2026-03-04 16:53:26,598 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:28,587 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:30,583 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:32,577 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:34,571 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:36,563 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:38,556 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:40,552 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:42,545 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:44,538 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:46,529 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:48,530 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:50,518 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:52,510 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:54,507 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:55,329 - INFO - Arduino: Config received
+2026-03-04 16:53:56,505 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:53:58,496 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:00,490 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:02,480 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:04,475 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:06,471 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:08,464 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:10,455 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:12,450 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:14,441 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:16,431 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:18,431 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:20,422 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:22,413 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:24,400 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:25,327 - INFO - Arduino: Config received
+2026-03-04 16:54:26,395 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:28,397 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:30,392 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:32,373 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:34,377 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:36,362 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:38,363 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:40,357 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:42,349 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:44,333 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:46,335 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:48,329 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:50,316 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:52,315 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:54,312 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:55,332 - INFO - Arduino: Config received
+2026-03-04 16:54:56,297 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:54:58,297 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:00,289 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:02,280 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:04,282 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:06,276 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:08,264 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:10,264 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:12,248 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:14,245 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:16,242 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:18,236 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:20,219 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:22,221 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:24,207 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:25,333 - INFO - Arduino: Config received
+2026-03-04 16:55:26,202 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:28,199 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:30,186 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:32,197 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:34,183 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:36,174 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:38,170 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:40,160 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:42,161 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:44,143 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:46,135 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:48,130 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:50,124 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:52,113 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:54,115 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:55,328 - INFO - Arduino: Config received
+2026-03-04 16:55:56,100 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:55:58,105 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:00,089 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:02,083 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:04,076 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:06,065 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:08,067 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:10,052 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:12,051 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:14,042 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:16,036 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:18,027 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:20,026 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:22,010 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:24,009 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:25,328 - INFO - Arduino: Config received
+2026-03-04 16:56:25,999 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:27,995 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:29,992 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:31,978 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:33,972 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:35,963 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:37,959 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:39,957 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:43,939 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:45,937 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:49,924 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:53,904 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:55,337 - INFO - Arduino: Config received
+2026-03-04 16:56:55,900 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:57,898 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:56:59,890 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:01,885 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:03,871 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:05,872 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:07,865 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:09,852 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:11,854 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:13,844 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:15,830 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:17,837 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:21,816 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:25,338 - INFO - Arduino: Config received
+2026-03-04 16:57:25,796 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:27,799 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:29,785 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:31,785 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:33,776 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:35,768 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:37,760 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:39,755 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:41,751 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:43,740 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:45,731 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:47,730 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:49,721 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:51,716 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:53,702 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:55,331 - INFO - Arduino: Config received
+2026-03-04 16:57:55,697 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:57,689 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:57:59,686 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:01,680 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:03,667 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:05,664 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:07,657 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:09,643 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:11,646 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:13,635 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:15,632 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:17,615 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:19,610 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:21,606 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:23,599 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:25,339 - INFO - Arduino: Config received
+2026-03-04 16:58:25,587 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:27,584 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:29,574 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:31,577 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:33,566 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:35,557 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:37,549 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:39,542 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:41,533 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:43,524 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:45,529 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:47,522 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:49,513 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:51,503 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:53,506 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:55,339 - INFO - Arduino: Config received
+2026-03-04 16:58:55,494 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:57,487 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:58:59,476 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:01,472 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:03,461 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:05,455 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:07,447 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:09,441 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:11,434 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:13,430 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:15,426 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:17,418 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:19,409 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:21,400 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:23,396 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:25,342 - INFO - Arduino: Config received
+2026-03-04 16:59:25,388 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:27,380 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:29,380 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:31,369 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:33,360 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:35,360 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:37,356 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:39,338 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:41,334 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:43,330 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:45,322 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:47,319 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:49,316 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:51,298 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:53,293 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:55,293 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:55,336 - INFO - Arduino: Config received
+2026-03-04 16:59:57,288 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 16:59:59,274 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:01,269 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:03,258 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:05,263 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:07,255 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:09,239 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:11,243 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:13,224 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:15,218 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:17,210 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:19,210 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:21,204 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:23,198 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:25,195 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:25,343 - INFO - Arduino: Config received
+2026-03-04 17:00:27,179 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:29,171 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:31,164 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:33,159 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:35,149 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:37,155 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:39,147 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:41,134 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:43,127 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:45,127 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:47,118 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:49,109 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:51,112 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:53,093 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:55,091 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:55,346 - INFO - Arduino: Config received
+2026-03-04 17:00:57,082 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:00:59,077 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:01,070 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:03,060 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:05,054 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:07,051 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:09,041 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:11,035 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:13,032 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:15,024 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:17,015 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:19,006 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:21,008 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:22,993 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:24,997 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:25,345 - INFO - Arduino: Config received
+2026-03-04 17:01:26,985 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:28,975 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:30,967 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:32,963 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:34,956 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:36,945 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:38,939 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:40,934 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:42,931 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:44,928 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:46,921 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:48,910 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:50,908 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:52,894 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:54,882 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:55,348 - INFO - Arduino: Config received
+2026-03-04 17:01:56,875 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:01:58,879 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:00,872 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:02,860 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:04,854 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:06,850 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:08,838 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:10,829 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:12,825 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:14,819 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:16,816 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:18,804 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:20,798 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:22,792 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:24,785 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:25,344 - INFO - Arduino: Config received
+2026-03-04 17:02:26,776 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:28,776 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:30,765 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:32,762 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:34,747 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:36,740 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:38,735 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:40,736 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:42,721 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:44,718 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:46,715 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:48,708 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:50,699 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:52,689 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:54,682 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:55,347 - INFO - Arduino: Config received
+2026-03-04 17:02:56,679 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:02:58,675 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:00,669 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:02,655 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:04,652 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:06,644 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:08,647 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:10,633 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:12,633 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:14,614 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:16,623 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:18,634 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:20,596 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:22,597 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:24,580 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:25,343 - INFO - Arduino: Config received
+2026-03-04 17:03:26,577 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:28,570 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:30,566 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:32,552 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:34,554 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:36,550 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:38,539 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:40,530 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:42,523 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:44,517 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:46,509 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:48,510 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:50,497 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:52,498 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:54,487 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:55,354 - INFO - Arduino: Config received
+2026-03-04 17:03:56,477 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:03:58,471 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:00,465 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:02,459 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:04,453 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:06,448 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:08,442 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:10,429 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:12,422 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:14,412 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:16,410 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:18,401 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:20,400 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:22,388 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:24,382 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:25,356 - INFO - Arduino: Config received
+2026-03-04 17:04:26,376 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:28,372 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:30,359 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:32,349 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:34,352 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:36,341 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:38,333 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:40,325 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:42,317 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:44,310 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:46,301 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:48,304 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:50,289 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:52,284 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:54,280 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:55,356 - INFO - Arduino: Config received
+2026-03-04 17:04:56,274 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:04:58,266 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:00,261 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:02,250 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:04,244 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:06,236 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:08,226 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:10,226 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:12,219 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:14,211 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:16,203 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:18,198 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:20,192 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:22,180 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:24,177 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:25,355 - INFO - Arduino: Config received
+2026-03-04 17:05:26,174 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:32,149 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:38,134 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:05:55,353 - INFO - Arduino: Config received
+2026-03-04 17:06:04,028 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:06:06,029 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:06:08,017 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:06:10,008 - WARNING - Sensor PIR: MOTION_DETECTED - Value 1.00 exceeds threshold 1.00
+2026-03-04 17:06:40,013 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:06:40,018 - INFO - Attempting to reconnect...
+2026-03-04 17:06:44,040 - INFO - Connected to Arduino on COM9
+2026-03-04 17:06:44,045 - INFO - Reconnected after 1 attempts
+2026-03-04 17:06:44,060 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:06:44,064 - INFO - Attempting to reconnect...
+2026-03-04 17:06:48,083 - INFO - Connected to Arduino on COM9
+2026-03-04 17:06:48,089 - INFO - Reconnected after 1 attempts
+2026-03-04 17:06:48,102 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:06:48,106 - INFO - Attempting to reconnect...
+2026-03-04 17:06:52,127 - INFO - Connected to Arduino on COM9
+2026-03-04 17:06:52,131 - INFO - Reconnected after 1 attempts
+2026-03-04 17:06:52,147 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:06:52,150 - INFO - Attempting to reconnect...
+2026-03-04 17:06:56,170 - INFO - Connected to Arduino on COM9
+2026-03-04 17:06:56,173 - INFO - Reconnected after 1 attempts
+2026-03-04 17:06:56,187 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:06:56,190 - INFO - Attempting to reconnect...
+2026-03-04 17:07:00,209 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:00,214 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:00,228 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:00,232 - INFO - Attempting to reconnect...
+2026-03-04 17:07:04,250 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:04,255 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:04,270 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:04,275 - INFO - Attempting to reconnect...
+2026-03-04 17:07:08,293 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:08,299 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:08,313 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:08,317 - INFO - Attempting to reconnect...
+2026-03-04 17:07:12,336 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:12,339 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:12,353 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:12,357 - INFO - Attempting to reconnect...
+2026-03-04 17:07:16,376 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:16,382 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:16,395 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:16,399 - INFO - Attempting to reconnect...
+2026-03-04 17:07:20,418 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:20,422 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:20,437 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:20,441 - INFO - Attempting to reconnect...
+2026-03-04 17:07:24,459 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:24,464 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:24,477 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:24,481 - INFO - Attempting to reconnect...
+2026-03-04 17:07:28,499 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:28,505 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:28,519 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:28,523 - INFO - Attempting to reconnect...
+2026-03-04 17:07:32,541 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:32,546 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:32,560 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:32,563 - INFO - Attempting to reconnect...
+2026-03-04 17:07:36,581 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:36,586 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:36,600 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:36,604 - INFO - Attempting to reconnect...
+2026-03-04 17:07:40,623 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:40,628 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:40,641 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:40,645 - INFO - Attempting to reconnect...
+2026-03-04 17:07:44,668 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:44,672 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:44,686 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:44,690 - INFO - Attempting to reconnect...
+2026-03-04 17:07:48,707 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:48,712 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:48,726 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:48,729 - INFO - Attempting to reconnect...
+2026-03-04 17:07:52,747 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:52,752 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:52,769 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:52,772 - INFO - Attempting to reconnect...
+2026-03-04 17:07:56,791 - INFO - Connected to Arduino on COM9
+2026-03-04 17:07:56,795 - INFO - Reconnected after 1 attempts
+2026-03-04 17:07:56,809 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:07:56,814 - INFO - Attempting to reconnect...
+2026-03-04 17:08:00,832 - INFO - Connected to Arduino on COM9
+2026-03-04 17:08:00,837 - INFO - Reconnected after 1 attempts
+2026-03-04 17:08:00,855 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:08:00,892 - INFO - Attempting to reconnect...
+2026-03-04 17:08:04,914 - INFO - Connected to Arduino on COM9
+2026-03-04 17:08:04,920 - INFO - Reconnected after 1 attempts
+2026-03-04 17:08:04,938 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:08:04,944 - INFO - Attempting to reconnect...
+2026-03-04 17:08:08,966 - INFO - Connected to Arduino on COM9
+2026-03-04 17:08:08,982 - INFO - Reconnected after 1 attempts
+2026-03-04 17:08:09,001 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:08:09,010 - INFO - Attempting to reconnect...
+2026-03-04 17:08:13,035 - INFO - Connected to Arduino on COM9
+2026-03-04 17:08:13,038 - INFO - Reconnected after 1 attempts
+2026-03-04 17:08:13,052 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:08:13,056 - INFO - Attempting to reconnect...
+2026-03-04 17:08:17,075 - INFO - Connected to Arduino on COM9
+2026-03-04 17:08:17,081 - INFO - Reconnected after 1 attempts
+2026-03-04 17:08:17,095 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:08:17,100 - INFO - Attempting to reconnect...
+2026-03-04 17:08:21,119 - INFO - Connected to Arduino on COM9
+2026-03-04 17:08:21,122 - INFO - Reconnected after 1 attempts
+2026-03-04 17:08:21,136 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:08:21,140 - INFO - Attempting to reconnect...
+2026-03-04 17:13:46,361 - INFO - Starting IoT Management System
+2026-03-04 17:13:48,382 - INFO - Connected to Arduino on COM9
+2026-03-04 17:13:48,892 - WARNING - Sensor HC_SR04 hasn't reported since 2026-03-04 16:06:10
+2026-03-04 17:13:48,895 - WARNING - Sensor PIR hasn't reported since 2026-03-04 16:06:10
+2026-03-04 17:14:16,370 - WARNING - Heartbeat timeout - Arduino may be disconnected
+2026-03-04 17:14:16,373 - INFO - Attempting to reconnect...
+2026-03-04 17:14:18,900 - WARNING - Sensor HC_SR04 hasn't reported since 2026-03-04 16:06:10
+2026-03-04 17:14:18,906 - WARNING - Sensor PIR hasn't reported since 2026-03-04 16:06:10
+2026-03-04 17:14:20,391 - INFO - Connected to Arduino on COM9
+2026-03-04 17:14:20,395 - INFO - Reconnected after 1 attempts

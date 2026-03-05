@@ -31,6 +31,7 @@ static bool haveDHT       = false;
 static bool haveDS18B20   = false;
 static bool haveBMP280    = false;
 static bool haveUltrasonic= false;
+static bool havePIR       = false;
 static bool haveAnalog[ANALOG_COUNT];
 
 static bool streamingEnabled = true;
@@ -42,44 +43,44 @@ static String cmdBuf;
 
 // ---------------- JSON Helpers ----------------
 static void jsonKV_str(const char* key, const char* val) {
-    Serial.print('"'); Serial.print(key); Serial.print("\":\"");
-    Serial.print(val); Serial.print('"');
+    Serial1.print('"'); Serial1.print(key); Serial1.print("\":\"");
+    Serial1.print(val); Serial1.print('"');
 }
 static void jsonKV_num(const char* key, float val) {
-    Serial.print('"'); Serial.print(key); Serial.print("\":");
-    Serial.print(val, 6);
+    Serial1.print('"'); Serial1.print(key); Serial1.print("\":");
+    Serial1.print(val, 6);
 }
 static void jsonKV_int(const char* key, long val) {
-    Serial.print('"'); Serial.print(key); Serial.print("\":");
-    Serial.print(val);
+    Serial1.print('"'); Serial1.print(key); Serial1.print("\":");
+    Serial1.print(val);
 }
 
 static void sendMessage(const char* type, const char* payloadKey = nullptr, const char* payloadVal = nullptr) {
-    Serial.print('{');
+    Serial1.print('{');
     jsonKV_str("type", type);
-    Serial.print(',');
+    Serial1.print(',');
     jsonKV_int("ts", millis());
     if (payloadKey && payloadVal) {
-        Serial.print(',');
+        Serial1.print(',');
         jsonKV_str(payloadKey, payloadVal);
     }
-    Serial.println('}');
+    Serial1.println('}');
 }
 
 static void sendError(const char* msg) {
-    Serial.print('{');
-    jsonKV_str("type", "ERROR"); Serial.print(',');
-    jsonKV_int("ts", millis());  Serial.print(',');
+    Serial1.print('{');
+    jsonKV_str("type", "ERROR"); Serial1.print(',');
+    jsonKV_int("ts", millis());  Serial1.print(',');
     jsonKV_str("message", msg);
-    Serial.println('}');
+    Serial1.println('}');
 }
 
 static void sendLog(const char* msg) {
-    Serial.print('{');
-    jsonKV_str("type", "LOG"); Serial.print(',');
-    jsonKV_int("ts", millis()); Serial.print(',');
+    Serial1.print('{');
+    jsonKV_str("type", "LOG"); Serial1.print(',');
+    jsonKV_int("ts", millis()); Serial1.print(',');
     jsonKV_str("message", msg);
-    Serial.println('}');
+    Serial1.println('}');
 }
 
 // ---------------- Detection ----------------
@@ -131,87 +132,87 @@ static void detectAll() {
 
 // ---------------- Inventory ----------------
 static void sendInventory() {
-    Serial.print('{');
-    jsonKV_str("type", "INVENTORY"); Serial.print(',');
-    jsonKV_int("ts", millis()); Serial.print(',');
-    Serial.print("\"sensors\":{");
+    Serial1.print('{');
+    jsonKV_str("type", "INVENTORY"); Serial1.print(',');
+    jsonKV_int("ts", millis()); Serial1.print(',');
+    Serial1.print("\"sensors\":{");
 
     bool first = true;
 
     if (haveDHT) {
-        if (!first) Serial.print(','); first = false;
-        Serial.print("\"DHT\":{"); jsonKV_str("model", DHT_TYPE == DHT22 ? "DHT22" : "DHT11"); Serial.print('}');
+        if (!first) Serial1.print(','); first = false;
+        Serial1.print("\"DHT\":{"); jsonKV_str("model", DHT_TYPE == DHT22 ? "DHT22" : "DHT11"); Serial1.print('}');
     }
     if (haveDS18B20) {
-        if (!first) Serial.print(','); first = false;
-        Serial.print("\"DS18B20\":{"); jsonKV_str("bus", "OneWire"); Serial.print('}');
+        if (!first) Serial1.print(','); first = false;
+        Serial1.print("\"DS18B20\":{"); jsonKV_str("bus", "OneWire"); Serial1.print('}');
     }
     if (haveBMP280) {
-        if (!first) Serial.print(','); first = false;
-        Serial.print("\"BMP280\":{"); jsonKV_str("bus", "I2C"); Serial.print('}');
+        if (!first) Serial1.print(','); first = false;
+        Serial1.print("\"BMP280\":{"); jsonKV_str("bus", "I2C"); Serial1.print('}');
     }
     if (haveUltrasonic) {
-        if (!first) Serial.print(','); first = false;
-        Serial.print("\"HC_SR04\":{"); jsonKV_str("pins", "TRIG:D4,ECHO:D5"); Serial.print('}');
+        if (!first) Serial1.print(','); first = false;
+        Serial1.print("\"HC_SR04\":{"); jsonKV_str("pins", "TRIG:D4,ECHO:D5"); Serial1.print('}');
     }
     if (havePIR) {
-        if (!first) Serial.print(','); first = false;
-        Serial.print("\"PIR\":{"); jsonKV_str("pin", String(PIN_PIR).c_str()); Serial.print('}');
+        if (!first) Serial1.print(','); first = false;
+        Serial1.print("\"PIR\":{"); jsonKV_str("pin", String(PIN_PIR).c_str()); Serial1.print('}');
     }
     bool anyAnalog = false;
     for (size_t i = 0; i < ANALOG_COUNT; ++i) if (haveAnalog[i]) { anyAnalog = true; break; }
     if (anyAnalog) {
-        if (!first) Serial.print(','); first = false;
-        Serial.print("\"ANALOG\":{");
-        Serial.print("\"channels\":[");
+        if (!first) Serial1.print(','); first = false;
+        Serial1.print("\"ANALOG\":{");
+        Serial1.print("\"channels\":[");
         bool f2 = true;
         for (size_t i = 0; i < ANALOG_COUNT; ++i) {
             if (!haveAnalog[i]) continue;
-            if (!f2) Serial.print(',');
-            Serial.print('"'); Serial.print((int)ANALOG_PINS[i]); Serial.print('"');
+            if (!f2) Serial1.print(',');
+            Serial1.print('"'); Serial1.print((int)ANALOG_PINS[i]); Serial1.print('"');
             f2 = false;
         }
-        Serial.print("]}");
+        Serial1.print("]}");
     }
 
-    Serial.print("}}");
-    Serial.println();
+    Serial1.print("}}");
+    Serial1.println();
 }
 
 // ---------------- Sampling ----------------
 static void sampleDHT() {
     float t = dht.readTemperature();
     float h = dht.readHumidity();
-    Serial.print('{'); jsonKV_str("type", "DATA"); Serial.print(',');
-    jsonKV_int("ts", millis()); Serial.print(',');
-    jsonKV_str("sensor", "DHT"); Serial.print(',');
-    Serial.print("\"values\":{");
+    Serial1.print('{'); jsonKV_str("type", "DATA"); Serial1.print(',');
+    jsonKV_int("ts", millis()); Serial1.print(',');
+    jsonKV_str("sensor", "DHT"); Serial1.print(',');
+    Serial1.print("\"values\":{");
     bool first = true;
-    if (!isnan(t)) { if (!first) Serial.print(','); first = false; jsonKV_num("temperature_c", t); }
-    if (!isnan(h)) { if (!first) Serial.print(','); first = false; jsonKV_num("humidity_pct", h); }
-    Serial.print("}}"); Serial.println();
+    if (!isnan(t)) { if (!first) Serial1.print(','); first = false; jsonKV_num("temperature_c", t); }
+    if (!isnan(h)) { if (!first) Serial1.print(','); first = false; jsonKV_num("humidity_pct", h); }
+    Serial1.print("}}"); Serial1.println();
 }
 static void sampleDS18B20() {
     ds18b20.requestTemperatures();
     float tempC = ds18b20.getTempCByIndex(0);
-    Serial.print('{'); jsonKV_str("type", "DATA"); Serial.print(',');
-    jsonKV_int("ts", millis()); Serial.print(',');
-    jsonKV_str("sensor", "DS18B20"); Serial.print(',');
-    Serial.print("\"values\":{"); jsonKV_num("temperature_c", tempC); Serial.print("}}"); Serial.println();
+    Serial1.print('{'); jsonKV_str("type", "DATA"); Serial1.print(',');
+    jsonKV_int("ts", millis()); Serial1.print(',');
+    jsonKV_str("sensor", "DS18B20"); Serial1.print(',');
+    Serial1.print("\"values\":{"); jsonKV_num("temperature_c", tempC); Serial1.print("}}"); Serial1.println();
 }
 static void sampleBMP280() {
     float t = bmp.readTemperature();
     float p = bmp.readPressure();
     float a = bmp.readAltitude(1013.25);
-    Serial.print('{'); jsonKV_str("type", "DATA"); Serial.print(',');
-    jsonKV_int("ts", millis()); Serial.print(',');
-    jsonKV_str("sensor", "BMP280"); Serial.print(',');
-    Serial.print("\"values\":{");
+    Serial1.print('{'); jsonKV_str("type", "DATA"); Serial1.print(',');
+    jsonKV_int("ts", millis()); Serial1.print(',');
+    jsonKV_str("sensor", "BMP280"); Serial1.print(',');
+    Serial1.print("\"values\":{");
     bool first = true;
-    if (!isnan(t)) { if (!first) Serial.print(','); first = false; jsonKV_num("temperature_c", t); }
-    if (!isnan(p)) { if (!first) Serial.print(','); first = false; jsonKV_num("pressure_pa", p); }
-    if (!isnan(a)) { if (!first) Serial.print(','); first = false; jsonKV_num("altitude_m", a); }
-    Serial.print("}}"); Serial.println();
+    if (!isnan(t)) { if (!first) Serial1.print(','); first = false; jsonKV_num("temperature_c", t); }
+    if (!isnan(p)) { if (!first) Serial1.print(','); first = false; jsonKV_num("pressure_pa", p); }
+    if (!isnan(a)) { if (!first) Serial1.print(','); first = false; jsonKV_num("altitude_m", a); }
+    Serial1.print("}}"); Serial1.println();
 }
 static void sampleUltrasonic() {
     digitalWrite(PIN_HCSR04_TRG, LOW); delayMicroseconds(2);
@@ -219,37 +220,37 @@ static void sampleUltrasonic() {
     digitalWrite(PIN_HCSR04_TRG, LOW);
     unsigned long dur = pulseIn(PIN_HCSR04_ECH, HIGH, 30000UL);
     float distanceCm = (dur / 2.0f) * 0.0343f;
-    Serial.print('{'); jsonKV_str("type", "DATA"); Serial.print(',');
-    jsonKV_int("ts", millis()); Serial.print(',');
-    jsonKV_str("sensor", "HC_SR04"); Serial.print(',');
-    Serial.print("\"values\":{"); jsonKV_num("distance_cm", distanceCm); Serial.print("}}"); Serial.println();
+    Serial1.print('{'); jsonKV_str("type", "DATA"); Serial1.print(',');
+    jsonKV_int("ts", millis()); Serial1.print(',');
+    jsonKV_str("sensor", "HC_SR04"); Serial1.print(',');
+    Serial1.print("\"values\":{"); jsonKV_num("distance_cm", distanceCm); Serial1.print("}}"); Serial1.println();
 }
 static void samplePIR() {
     int motionDetected = digitalRead(PIN_PIR);
-    Serial.print('{'); jsonKV_str("type", "DATA"); Serial.print(',');
-    jsonKV_int("ts", millis()); Serial.print(',');
-    jsonKV_str("sensor", "PIR"); Serial.print(',');
-    Serial.print("\"values\":{"); jsonKV_int("motion", motionDetected); Serial.print("}}"); Serial.println();
+    Serial1.print('{'); jsonKV_str("type", "DATA"); Serial1.print(',');
+    jsonKV_int("ts", millis()); Serial1.print(',');
+    jsonKV_str("sensor", "PIR"); Serial1.print(',');
+    Serial1.print("\"values\":{"); jsonKV_int("motion", motionDetected); Serial1.print("}}"); Serial1.println();
 }
 static void sampleAnalog() {
     for (size_t i = 0; i < ANALOG_COUNT; ++i) {
         if (!haveAnalog[i]) continue;
         int raw = analogRead(ANALOG_PINS[i]);
-        Serial.print('{'); jsonKV_str("type", "DATA"); Serial.print(',');
-        jsonKV_int("ts", millis()); Serial.print(',');
-        jsonKV_str("sensor", "ANALOG"); Serial.print(',');
-        Serial.print("\"values\":{");
-        jsonKV_int("pin", ANALOG_PINS[i]); Serial.print(',');
-        jsonKV_int("raw", raw); Serial.print("}}"); Serial.println();
+        Serial1.print('{'); jsonKV_str("type", "DATA"); Serial1.print(',');
+        jsonKV_int("ts", millis()); Serial1.print(',');
+        jsonKV_str("sensor", "ANALOG"); Serial1.print(',');
+        Serial1.print("\"values\":{");
+        jsonKV_int("pin", ANALOG_PINS[i]); Serial1.print(',');
+        jsonKV_int("raw", raw); Serial1.print("}}"); Serial1.println();
     }
 }
 static void sendHeartbeat() {
-    Serial.print('{');
-    jsonKV_str("type", "HEARTBEAT"); Serial.print(',');
-    jsonKV_int("ts", millis()); Serial.print(',');
-    jsonKV_int("interval_ms", sampleIntervalMs); Serial.print(',');
+    Serial1.print('{');
+    jsonKV_str("type", "HEARTBEAT"); Serial1.print(',');
+    jsonKV_int("ts", millis()); Serial1.print(',');
+    jsonKV_int("interval_ms", sampleIntervalMs); Serial1.print(',');
     jsonKV_str("mode", streamingEnabled ? "STREAMING" : "PAUSED");
-    Serial.print('}'); Serial.println();
+    Serial1.print('}'); Serial1.println();
 }
 
 // ---------------- Commands ----------------
@@ -278,8 +279,8 @@ static void processCommand(const String& cmdLine) {
     } else sendError("Unknown command");
 }
 static void pollSerial() {
-    while (Serial.available()) {
-        char c = (char)Serial.read();
+    while (Serial1.available()) {
+        char c = (char)Serial1.read();
         if (c == '\n' || c == '\r') {
             if (cmdBuf.length() > 0) { processCommand(cmdBuf); cmdBuf = ""; }
         } else {
@@ -290,8 +291,7 @@ static void pollSerial() {
 
 // ---------------- Public API ----------------
 void SensorHub::begin(unsigned long baudrate) {
-    Serial.begin(baudrate);
-    while (!Serial) {}
+    Serial1.begin(baudrate);
     sendLog("Booting Sensor Hub...");
     detectAll(); sendInventory(); sendHeartbeat();
     tLastSample = millis(); tLastHeartbeat = millis();

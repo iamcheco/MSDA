@@ -1,0 +1,85 @@
+# ─────────────────────────────────────────────────────────────────
+# MSDA GitLab CI Pipeline
+# Stages:
+#   1. lint   – check Python code quality
+#   2. build  – compile Arduino sketches with arduino-cli
+#   3. deploy – (future) SSH into Pi and restart service
+# ─────────────────────────────────────────────────────────────────
+
+stages:
+  - lint
+  - build
+  - deploy
+
+# ── 1. Python Lint ────────────────────────────────────────────────
+python-lint:
+  stage: lint
+  image: python:3.11-slim
+  script:
+    - pip install --quiet flake8 pyserial
+    - echo "=== Checking syntax ==="
+    - python -m py_compile arduino_maanagement.py
+    - echo "=== Running flake8 ==="
+    # E501: max line length 120, W503: ignored (line-break style)
+    - flake8 arduino_maanagement.py --max-line-length=120 --ignore=E501,W503,E302,E303
+    - echo "Lint passed!"
+  rules:
+    - changes:
+        - "*.py"
+        - requirements.txt
+
+# ── 2. Arduino Sketch Compile ─────────────────────────────────────
+arduino-build:
+  stage: build
+  image: debian:bookworm-slim
+  before_script:
+    # Install arduino-cli
+    - apt-get update -qq && apt-get install -y -qq curl
+    - curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+    - export PATH="$PATH:/root/bin"
+    # Install Arduino Nano Every board support
+    - arduino-cli core update-index
+    - arduino-cli core install arduino:megaavr
+  script:
+    - echo "=== Compiling USB firmware (Issue 1) ==="
+    - arduino-cli compile
+        --fqbn arduino:megaavr:nona4809
+        --output-dir /tmp/build_usb
+        MSDA_Firmware_USB/MSDA_Firmware_USB.ino
+    - echo "=== Compiling GPIO firmware (Issue 2) ==="
+    - arduino-cli compile
+        --fqbn arduino:megaavr:nona4809
+        --output-dir /tmp/build_gpio
+        MSDA_Firmware/MSDA_Firmware.ino
+    - echo "Both sketches compiled successfully!"
+  rules:
+    - changes:
+        - "MSDA_Firmware/**"
+        - "MSDA_Firmware_USB/**"
+        - "arduino/src/**"
+  artifacts:
+    paths:
+      - /tmp/build_usb/*.hex
+      - /tmp/build_gpio/*.hex
+    expire_in: 1 week
+
+# ── 3. Deploy to Raspberry Pi (future – uncomment when Pi is ready) ─
+# deploy-pi:
+#   stage: deploy
+#   image: alpine:latest
+#   before_script:
+#     - apk add --no-cache openssh-client
+#     - eval $(ssh-agent -s)
+#     - echo "$PI_SSH_KEY" | ssh-add -          # set PI_SSH_KEY in GitLab CI/CD settings
+#     - mkdir -p ~/.ssh && chmod 700 ~/.ssh
+#     - ssh-keyscan $PI_HOST >> ~/.ssh/known_hosts
+#   script:
+#     - ssh pi@$PI_HOST "
+#         cd ~/MSDA/Multi-Sensor-Data-Aggregator &&
+#         git pull origin main &&
+#         sudo systemctl restart msda.service"
+#   environment:
+#     name: raspberry-pi
+#   rules:
+#     - if: '$CI_COMMIT_BRANCH == "main"'
+#       when: manual        # require manual trigger for deploy

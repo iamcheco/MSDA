@@ -1,0 +1,33 @@
+# IDE / Editor
+.vs/
+.vscode/
+*.suo
+*.user
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+
+# Arduino / PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+*.hex
+*.elf
+*.map
+
+# Database / logs
+*.db
+*.db-journal
+*.db.backup_*
+iot_system.log
+iot_export_*.csv
+
+# OS
+.DS_Store
+Thumbs.db
