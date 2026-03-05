@@ -1,0 +1,170 @@
+================================================================================
+MSDA — Multi-Sensor Data Aggregator
+Project Overview & GitLab Issues Summary
+================================================================================
+
+PROJECT OVERVIEW
+----------------
+This is an embedded IoT system that bridges a physical sensor network (Arduino)
+with a Raspberry Pi management backend.
+
+HARDWARE LAYER — Arduino (arduino/src/)
+  The Arduino runs SensorHub firmware (C++, built with PlatformIO for an
+  Arduino Nano Every / Nano ESP32). On startup, it auto-detects which physical
+  sensors are plugged in and streams JSON data over UART (Serial @ 115200 baud).
+
+  Supported sensors (auto-detected at boot):
+    - DHT22          : Temperature + Humidity         (Pin D3)
+    - DS18B20        : Temperature via OneWire         (Pin D5)
+    - BMP280         : Pressure + Temperature          (I2C)
+    - HC-SR04        : Ultrasonic Distance             (Pin D7 Trig, D8 Echo)
+    - PIR            : Motion detection                (Pin D6)
+    - Analog A0–A3   : Generic analog inputs
+
+  Messages sent over Serial (JSON):
+    - DATA      : sensor readings every N milliseconds
+    - INVENTORY : list of detected sensors on startup
+    - HEARTBEAT : periodic keepalive
+    - LOG/ERROR : status messages
+
+  Commands accepted from Raspberry Pi:
+    PING, INVENTORY, START, STOP, SET_RATE <ms>, STATUS, RESET
+
+RASPBERRY PI LAYER — arduino_maanagement.py (note the typo in the filename)
+  A ~929-line Python script acting as the hub, broken into 4 classes:
+
+    ConfigManager   : Reads/writes iot_config.ini
+    DatabaseManager : SQLite (iot_sensors.db) — stores readings, fires alerts,
+                      runs backups and old-data cleanup
+    SerialManager   : Reads JSON from Arduino over /dev/ttyAMA0, parses it,
+                      feeds into the database
+    IoTManager      : Orchestrates everything — starts threads, runs a CLI
+
+  Background threads:
+    - Read loop        : continuous serial read → parse → store
+    - Maintenance loop : periodic DB backup + old data cleanup
+    - Monitor loop     : heartbeat timeout detection, auto-reconnect
+
+  Interactive CLI commands: status, sensors, config, stats, alerts, export
+
+CONFIGURATION — iot_config.ini
+  Centralizes all tunable parameters: serial port (/dev/ttyAMA0), DB retention
+  (30 days), sample interval (2000 ms), alert thresholds (temp: -10°C to 50°C,
+  humidity: 20%+, distance: 5–200 cm), and logging settings.
+
+PROJECT STRUCTURE
+  MSDA/
+  ├── Multi-Sensor-Data-Aggregator/
+  │   ├── arduino/                    ← PlatformIO C++ firmware for Arduino Nano
+  │   │   └── src/
+  │   │       ├── main.ino            ← 10 lines: calls SensorHub::begin/update
+  │   │       ├── SensorHub.cpp       ← All sensor logic, JSON output, commands
+  │   │       └── SensorHub.hpp       ← Public API: begin() + update()
+  │   ├── arduino_maanagement.py      ← Main Raspberry Pi Python script
+  │   ├── iot_config.ini              ← Runtime configuration
+  │   ├── iot_sensors.db              ← SQLite database
+  │   └── iot_system.log              ← Log file
+  └── components.md / ARCHITECTURE.md ← Documentation
+
+
+================================================================================
+GITLAB ISSUES
+Source: https://resy-gitlab.inf.uni-bayreuth.de/shrivastava/msda/-/issues
+================================================================================
+
+ISSUE #1 — Implement and Test Core Sensor Reading on Arduino
+Label : Parent
+Status: Open
+--------------------------------------------------------------------------------
+Description:
+  This task involves writing and verifying the Arduino code to read data from
+  the initial set of project sensors. The goal is to confirm that each sensor
+  can be successfully polled for data before integrating them into the larger
+  system.
+
+Acceptance Criteria:
+  - Write Arduino code to read data from:
+      * PIR Motion Sensor
+      * Temperature and Humidity Sensor (DHT22)
+      * Ultrasonic Ranger
+  - Print readings from each sensor to the USB Serial Monitor for verification.
+  - This task should be completed using the existing USB connection for ease of
+    testing and debugging.
+
+Reality Check:
+  The existing SensorHub.cpp already auto-detects and reads all these sensors
+  and streams them as JSON over Serial. The code itself is essentially already
+  implemented. What remains is testing/verifying it against real hardware.
+
+
+--------------------------------------------------------------------------------
+ISSUE #2 — Transition to GPIO TX/RX for Arduino-Pi Communication
+Label : High Priority
+Status: Open
+--------------------------------------------------------------------------------
+Description:
+  This task covers the hardware and software changes required to move from a
+  temporary USB connection to a more permanent, direct serial connection using
+  the GPIO pins on the Raspberry Pi and Arduino Nano ESP32.
+
+Acceptance Criteria:
+  1. Hardware wiring (power off devices during wiring):
+       Pi GND         <--> Arduino GND
+       Pi TX (GPIO14) <--> Arduino RX (RXD1)
+       Pi RX (GPIO15) <--> Arduino TX (TXD1)
+
+  2. Raspberry Pi configuration:
+       - Use "sudo raspi-config" to enable hardware serial port and disable
+         the login shell over serial.
+       - Update iot_config.ini to point to the new serial device (/dev/ttyAMA0).
+         NOTE: iot_config.ini already has "port = /dev/ttyAMA0" set.
+
+  3. Arduino firmware:
+       - Modify firmware to send and receive data over Serial1 instead of the
+         default USB Serial object.
+         NOTE: SensorHub.cpp currently uses Serial (USB). It must be changed
+         to Serial1 for hardware UART.
+
+
+--------------------------------------------------------------------------------
+ISSUE #3 — Refactor Raspberry Pi Hub Application for Modularity
+Label : (none)
+Status: Open
+--------------------------------------------------------------------------------
+Description:
+  This task involves refactoring the Python application within the
+  Multi-Sensor-Data-Aggregator/ directory to improve its structure and prepare
+  it for future expansion. This should be done without changing its core
+  function of reading from a serial port and saving to a database.
+
+Acceptance Criteria:
+  - Improve the modularity of arduino_maanagement.py by better separating
+    concerns (e.g., serial communication, database interaction, data processing
+    logic).
+  - Ensure the refactored code maintains all existing functionality.
+  - The tinyhouse-module-codebase/ directory and its contents must not be
+    modified or deleted.
+  - This task can be performed in parallel with the hardware modifications
+    from Issue #2.
+
+Note:
+  The "tinyhouse-module-codebase/" directory does not currently exist in the
+  repository — it is likely intended for a future addition.
+
+
+================================================================================
+WHAT NEEDS TO BE DONE (SUMMARY)
+================================================================================
+
+  Issue #1 : Verify/test that SensorHub.cpp works with real hardware over USB.
+             The code is already written; hardware testing is what is needed.
+
+  Issue #2 : Change Serial → Serial1 in SensorHub.cpp and SensorHub.hpp.
+             Update platformio.ini board target to nano_esp32 if needed.
+             iot_config.ini already points to /dev/ttyAMA0 — no change needed.
+
+  Issue #3 : Split arduino_maanagement.py (~929 lines, 4 classes) into
+             separate Python modules for better maintainability.
+             Issues #2 and #3 can be worked on in parallel.
+
+================================================================================
