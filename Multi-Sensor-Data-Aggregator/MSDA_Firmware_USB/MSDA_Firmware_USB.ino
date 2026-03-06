@@ -11,8 +11,15 @@
  * HC-SR04: TRIG → D4, ECHO → D5
  */
 
+#include <DHT.h>
+
 #define PIN_TRIG  4
 #define PIN_ECHO  5
+#define PIN_PIR   12
+#define PIN_DHT   14
+#define DHTTYPE   DHT11
+
+DHT dht(PIN_DHT, DHTTYPE);
 
 unsigned long sampleIntervalMs = 2000;
 unsigned long heartbeatMs      = 5000;
@@ -32,7 +39,7 @@ void sendHeartbeat() { sendMsg("HEARTBEAT", "OK"); }
 
 void sendInventory() {
   Serial.print("<INVENTORY|"); Serial.print(millis());
-  Serial.print("|1|HC_SR04:distance>");
+  Serial.print("|3|HC_SR04:distance,DHT11:temperature:humidity,PIR:motion>");
   Serial.println();
 }
 
@@ -48,6 +55,31 @@ void sampleHCSR04() {
   Serial.print("<DATA|"); Serial.print(millis());
   Serial.print("|HC_SR04,"); Serial.print(distCm, 2);
   Serial.print(",raw_us="); Serial.print(dur);
+  Serial.println('>');
+}
+
+// ── DHT11 sampling ───────────────────────────────────────────────
+void sampleDHT() {
+  float h = dht.readHumidity();
+  float t = dht.readTemperature();
+
+  Serial.print("<DATA|"); Serial.print(millis());
+  Serial.print("|DHT11,");
+  
+  if (isnan(h) || isnan(t)) {
+    Serial.print("ERROR,ERROR");
+  } else {
+    Serial.print(t, 2); Serial.print(","); Serial.print(h, 2);
+  }
+  Serial.println('>');
+}
+
+// ── PIR sampling ─────────────────────────────────────────────────
+void samplePIR() {
+  int motion = digitalRead(PIN_PIR);
+
+  Serial.print("<DATA|"); Serial.print(millis());
+  Serial.print("|PIR,"); Serial.print(motion);
   Serial.println('>');
 }
 
@@ -84,7 +116,10 @@ void setup() {
   pinMode(PIN_ECHO, INPUT);
   digitalWrite(PIN_TRIG, LOW);
 
-  sendMsg("STATUS", "MSDA Firmware ready - USB Serial");
+  pinMode(PIN_PIR, INPUT);
+  dht.begin();
+
+  sendMsg("STATUS", "MSDA Firmware ready - USB Serial Multi-Sensor");
   sendInventory();
   sendHeartbeat();
   tLastSample = tLastHeartbeat = millis();
@@ -98,6 +133,9 @@ void loop() {
     sendHeartbeat(); tLastHeartbeat = now;
   }
   if (now - tLastSample >= sampleIntervalMs) {
-    sampleHCSR04(); tLastSample = now;
+    sampleHCSR04();
+    sampleDHT();
+    samplePIR();
+    tLastSample = now;
   }
 }

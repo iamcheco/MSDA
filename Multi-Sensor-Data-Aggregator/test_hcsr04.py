@@ -35,6 +35,8 @@ args = parser.parse_args()
 MSG_RE = re.compile(r"<([A-Z]+)\|(\d+)\|([^>]*)>")
 # Specifically for HC-SR04 DATA messages: HC_SR04,12.34,raw_us=720
 HCSR04_RE = re.compile(r"HC_SR04,([\d.]+),raw_us=(\d+)")
+DHT11_RE = re.compile(r"DHT11,([\w.]+),([\w.]+)")
+PIR_RE = re.compile(r"PIR,(\d+)")
 
 print(f"\n{'='*55}")
 print(f"  MSDA HC-SR04 USB Serial Test")
@@ -60,7 +62,9 @@ print("[..] Waiting for boot message ...\n")
 
 # ── Read loop ─────────────────────────────────────────────────────
 buffer        = ""
-readings      = []        # list of (dist_cm, raw_us)
+readings_hcsr = []        # list of (dist_cm, raw_us)
+readings_dht  = []        # list of (temp, hum)
+readings_pir  = []        # list of (motion)
 got_boot      = False
 start_time    = time.time()
 
@@ -86,12 +90,25 @@ try:
 
             elif msg_type == "DATA":
                 hm = HCSR04_RE.search(content)
+                dm = DHT11_RE.search(content)
+                pm = PIR_RE.search(content)
+
                 if hm:
                     dist_cm = float(hm.group(1))
                     raw_us  = int(hm.group(2))
-                    readings.append((dist_cm, raw_us))
+                    readings_hcsr.append((dist_cm, raw_us))
                     tag = "WARN: timeout (0 cm — check wiring?)" if dist_cm == 0.0 else "OK"
                     print(f"[{tag[:2]}] HC_SR04  @ {ts}ms : {dist_cm:.2f} cm  (raw_us={raw_us})")
+                elif dm:
+                    t, h = dm.group(1), dm.group(2)
+                    readings_dht.append((t, h))
+                    tag = "WA" if t == "ERROR" else "OK"
+                    print(f"[{tag}] DHT11    @ {ts}ms : Temp={t}C, Humidity={h}%")
+                elif pm:
+                    m = int(pm.group(1))
+                    readings_pir.append(m)
+                    tag = "MO" if m else "--"
+                    print(f"[{tag}] PIR      @ {ts}ms : Motion={'DETECTED' if m else 'None'}")
 
         # Trim consumed messages from buffer to avoid re-matching
         last_close = buffer.rfind(">")
@@ -109,20 +126,21 @@ print(f"\n{'='*55}")
 print(f"  Results")
 print(f"{'='*55}")
 print(f"  Boot message received : {'YES' if got_boot else 'NO'}")
-print(f"  HC-SR04 readings      : {len(readings)} of {args.min_readings} required")
+print(f"  HC-SR04 readings      : {len(readings_hcsr)} of {args.min_readings} required")
+print(f"  DHT11 readings        : {len(readings_dht)}")
+print(f"  PIR   readings        : {len(readings_pir)}")
 
-if readings:
-    dists = [r[0] for r in readings]
-    print(f"  Distance range        : {min(dists):.2f} – {max(dists):.2f} cm")
+if readings_hcsr:
+    dists = [r[0] for r in readings_hcsr]
+    print(f"  HC-SR04 Range         : {min(dists):.2f} – {max(dists):.2f} cm")
     if all(d == 0.0 for d in dists):
-        print("  [WARN] All readings are 0.00 cm — HC-SR04 may not be wired to D4/D5")
-        print("         Firmware is working; sensor wiring needs to be checked.")
+        print("  [WARN] All HC-SR04 readings are 0.00 cm — Not wired or blocked.")
 
-if len(readings) >= args.min_readings:
-    print(f"\n  ✔  PASSED — received {len(readings)} readings\n")
+if len(readings_hcsr) >= args.min_readings:
+    print(f"\n  ✔  PASSED — received data\n")
     sys.exit(0)
 else:
-    print(f"\n  ✘  FAILED — expected ≥{args.min_readings} readings, got {len(readings)}")
+    print(f"\n  ✘  FAILED — expected ≥{args.min_readings} readings, got {len(readings_hcsr)}")
     if not got_boot:
         print("     Boot message never received — wrong port or firmware not uploaded?")
     print()
