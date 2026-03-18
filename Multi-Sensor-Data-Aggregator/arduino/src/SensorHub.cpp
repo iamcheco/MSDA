@@ -10,10 +10,10 @@
 static const unsigned long DEFAULT_SAMPLE_MS = 1000;
 static const unsigned long HEARTBEAT_MS      = 5000;
 
-static const uint8_t PIN_DHT        = 2;  // DHT11/DHT22 data
-static const uint8_t PIN_ONEWIRE    = 3;  // DS18B20 data
-static const uint8_t PIN_HCSR04_TRG = 4;  // HC-SR04 trigger
-static const uint8_t PIN_HCSR04_ECH = 5;  // HC-SR04 echo
+static const uint8_t PIN_DHT        = 3;  // DHT11/DHT22 data
+static const uint8_t PIN_ONEWIRE    = 5;  // DS18B20 data
+static const uint8_t PIN_HCSR04_TRG = 7;  // HC-SR04 trigger
+static const uint8_t PIN_HCSR04_ECH = 8;  // HC-SR04 echo
 static const uint8_t PIN_PIR        = 6;  // PIR motion sensor data
 
 static const uint8_t ANALOG_PINS[]  = {A0, A1, A2, A3};
@@ -153,11 +153,11 @@ static void sendInventory() {
     }
     if (haveUltrasonic) {
         if (!first) Serial1.print(','); first = false;
-        Serial1.print("\"HC_SR04\":{"); jsonKV_str("pins", "TRIG:D4,ECHO:D5"); Serial1.print('}');
+        Serial1.print("\"HC_SR04\":{"); jsonKV_str("pins", "TRIG:D7,ECHO:D8"); Serial1.print('}');
     }
     if (havePIR) {
         if (!first) Serial1.print(','); first = false;
-        Serial1.print("\"PIR\":{"); jsonKV_str("pin", String(PIN_PIR).c_str()); Serial1.print('}');
+        Serial1.print("\"PIR\":{"); jsonKV_str("pin", "D6"); Serial1.print('}');
     }
     bool anyAnalog = false;
     for (size_t i = 0; i < ANALOG_COUNT; ++i) if (haveAnalog[i]) { anyAnalog = true; break; }
@@ -275,7 +275,12 @@ static void processCommand(const String& cmdLine) {
     } else if (cmd == "STATUS") {
         sendInventory(); sendHeartbeat();
     } else if (cmd == "RESET") {
-        sendLog("Resetting..."); delay(100); asm volatile ("jmp 0");
+        sendLog("Resetting..."); delay(100);
+#if defined(ESP32)
+        ESP.restart();
+#else
+        asm volatile ("jmp 0");
+#endif
     } else sendError("Unknown command");
 }
 static void pollSerial() {

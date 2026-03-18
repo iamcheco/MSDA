@@ -7,7 +7,7 @@
  * Arduino Nano Sensor Hub
  *
  * Auto-detects attached sensors (DHT11/22, DS18B20, BMP280, HC-SR04, analog inputs)
- * and streams JSON-encoded messages over Serial.
+ * and streams JSON-encoded messages over Serial1.
  *
  * Provides inventory, data, heartbeat, log, and error messages.
  * Accepts commands (PING, INVENTORY, START, STOP, SET_RATE <ms>, STATUS, RESET).

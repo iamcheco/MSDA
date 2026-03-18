@@ -9,15 +9,17 @@
  * For Pi GPIO (Issue #2), use MSDA_Firmware.ino (Serial1 version).
  *
  * HC-SR04: TRIG → D4, ECHO → D5
+ * PIR:     DATA → D6
+ * DHT22:   DATA → D3
  */
 
 #include <DHT.h>
 
+#define PIN_DHT   3
+#define PIN_PIR   6
 #define PIN_TRIG  4
 #define PIN_ECHO  5
-#define PIN_PIR   12
-#define PIN_DHT   14
-#define DHTTYPE   DHT11
+#define DHTTYPE   DHT22
 
 DHT dht(PIN_DHT, DHTTYPE);
 
@@ -39,7 +41,7 @@ void sendHeartbeat() { sendMsg("HEARTBEAT", "OK"); }
 
 void sendInventory() {
   Serial.print("<INVENTORY|"); Serial.print(millis());
-  Serial.print("|3|HC_SR04:distance,DHT11:temperature:humidity,PIR:motion>");
+  Serial.print("|3|HC_SR04:distance,DHT22:temperature:humidity,PIR:motion>");
   Serial.println();
 }
 
@@ -58,13 +60,13 @@ void sampleHCSR04() {
   Serial.println('>');
 }
 
-// ── DHT11 sampling ───────────────────────────────────────────────
+// ── DHT22 sampling ───────────────────────────────────────────────
 void sampleDHT() {
   float h = dht.readHumidity();
   float t = dht.readTemperature();
 
   Serial.print("<DATA|"); Serial.print(millis());
-  Serial.print("|DHT11,");
+  Serial.print("|DHT22,");
   
   if (isnan(h) || isnan(t)) {
     Serial.print("ERROR,ERROR");
